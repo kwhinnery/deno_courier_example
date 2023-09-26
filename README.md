@@ -35,10 +35,14 @@ Add your fork of this sample project (or a new copy of it) to your GitHub
 account. In the [new project wizard](https://dash.deno.com/new), choose to
 import an existing GitHub repository, and choose this one.
 
+![Deno Deploy Dashboard](https://github.com/kwhinnery/deno_courier_example/assets/29193/c7966281-7f22-4c80-9dbe-8936c877c25a)
+
 After deploying, you'll need to update your project settings with a
 `COURIER_API_TOKEN`, much as you did in the local `.env` file. This should be
 all the configuration that's necessary - the demo should work just as it did
 locally.
+
+![image](https://github.com/kwhinnery/deno_courier_example/assets/29193/76d743d1-23e5-4942-8f11-0e9baa936750)
 
 ## License
 
