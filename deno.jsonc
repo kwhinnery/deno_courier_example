@@ -1,0 +1,13 @@
+{
+  "imports": {
+    // Used for handling HTTP requests and rendering HTML
+    "hono/": "https://deno.land/x/hono@v3.7.2/",
+    // Deno standard library - used to load the contents of a .env file
+    // Pinned to version 0.202.0 of the standard library
+    "std/": "https://deno.land/std@0.202.0/"
+  },
+  "tasks": {
+    // Run the server in development mode and watch for changes
+    "dev": "deno run -A --unstable --watch server.tsx"
+  }
+}
